@@ -5,12 +5,6 @@ import { useLanguage } from '@/lib/LanguageContext';
 export const Hero = () => {
   const { t } = useLanguage();
 
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
     <div className="relative min-h-screen flex items-center">
