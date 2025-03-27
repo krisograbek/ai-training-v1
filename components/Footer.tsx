@@ -28,18 +28,18 @@ export const Footer = () => {
             <ul className="mt-4 space-y-4">
               <li>
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+48574791371"
                   className="text-base text-gray-500 hover:text-gray-900"
                 >
-                  Phone: +1 (234) 567-890
+                  Phone: +48 574 791 371
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:contact@example.com"
+                  href={`mailto:${t('footer.email')}`}
                   className="text-base text-gray-500 hover:text-gray-900"
                 >
-                  Email: contact@example.com
+                  Email: {t('footer.email')}
                 </a>
               </li>
             </ul>
@@ -53,7 +53,7 @@ export const Footer = () => {
             <ul className="mt-4 space-y-4">
               <li>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/kris-ograbek/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-base text-gray-500 hover:text-gray-900 flex items-center"
@@ -71,7 +71,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://youtube.com"
+                  href={t('footer.youtubeLink')}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-base text-gray-500 hover:text-gray-900 flex items-center"

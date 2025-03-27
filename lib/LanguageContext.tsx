@@ -50,7 +50,9 @@ export const translations = {
     'footer.description': 'Empowering businesses with AI and automation solutions.',
     'footer.contact': 'Contact',
     'footer.followUs': 'Follow Us',
-    'footer.rights': '© 2025 KRIS. All rights reserved.'
+    'footer.rights': '© 2025 KRIS. All rights reserved.',
+    'footer.email': 'kris.ograbek@gmail.com',
+    'footer.youtubeLink': 'https://www.youtube.com/@krisograbek',
   },
   pl: {
     // Navigation
@@ -91,7 +93,9 @@ export const translations = {
     'footer.description': 'Wspieramy firmy rozwiązaniami AI i automatyzacji.',
     'footer.contact': 'Kontakt',
     'footer.followUs': 'Obserwuj nas',
-    'footer.rights': '© 2025 KRIS. Wszelkie prawa zastrzeżone.'
+    'footer.rights': '© 2025 KRIS. Wszelkie prawa zastrzeżone.',
+    'footer.email': 'krzysztof.ograbek@gmail.com',
+    'footer.youtubeLink': 'https://www.youtube.com/@AutomatyzacjaAIDlaBiznesu',
   }
 };
 
