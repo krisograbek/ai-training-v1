@@ -37,7 +37,7 @@ export const Navbar = () => {
               {t('nav.features')}
             </button>
             <button
-              className="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+              className="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 transition-all duration-200"
               onClick={() => scrollToSection('cta')}
             >
               {t('nav.getStarted')}
@@ -78,7 +78,7 @@ export const Navbar = () => {
             </button>
             <button
               onClick={() => scrollToSection('cta')}
-              className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+              className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 transition-all duration-200"
             >
               {t('nav.getStarted')}
             </button>
