@@ -24,7 +24,9 @@ export default function Home() {
           </p>
           <div className="mt-8">
             <a
-              href="mailto:contact@example.com"
+              href="https://cal.com/kris-ograbek/discovery"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 transition-all duration-200 md:py-4 md:text-lg md:px-10"
             >
               {t('cta.button')}

@@ -36,12 +36,14 @@ export const Navbar = () => {
             >
               {t('nav.features')}
             </button>
-            <button
-              className="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 transition-all duration-200"
-              onClick={() => scrollToSection('cta')}
+            <a
+              href="https://cal.com/kris-ograbek/discovery"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 transition-all duration-200 md:py-4 md:text-lg md:px-10"
             >
-              {t('nav.getStarted')}
-            </button>
+                {t('hero.cta')}
+              </a>
           </div>
 
           {/* Mobile menu button */}
@@ -76,12 +78,14 @@ export const Navbar = () => {
             >
               {t('nav.features')}
             </button>
-            <button
-              onClick={() => scrollToSection('cta')}
-              className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 transition-all duration-200"
+            <a
+              href="https://cal.com/kris-ograbek/discovery"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 transition-all duration-200 md:py-4 md:text-lg md:px-10"
             >
-              {t('nav.getStarted')}
-            </button>
+                {t('hero.cta')}
+              </a>
           </div>
         </div>
       )}

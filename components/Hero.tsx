@@ -29,12 +29,14 @@ export const Hero = () => {
 
           <div className="mt-8 max-w-md mx-auto sm:flex sm:justify-center md:mt-12">
             <div className="rounded-md shadow">
-              <button
-                onClick={() => scrollToSection('cta')}
-                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 transition-all duration-200 md:py-4 md:text-lg md:px-10"
-              >
+            <a
+              href="https://cal.com/kris-ograbek/discovery"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 transition-all duration-200 md:py-4 md:text-lg md:px-10"
+            >
                 {t('hero.cta')}
-              </button>
+              </a>
             </div>
           </div>
         </div>
